@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		967243C01AFD1C2900940908 /* International_students.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 967243BF1AFD1C2900940908 /* International_students.jpg */; };
 		967243C21AFD204100940908 /* 1782151_10152013590448773_1329157682_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 967243C11AFD204100940908 /* 1782151_10152013590448773_1329157682_n.jpg */; };
+		967243C71AFD277400940908 /* MapaIosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967243C61AFD277400940908 /* MapaIosViewController.m */; };
 		96A210C21AFD185600038166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C11AFD185600038166 /* main.m */; };
 		96A210C51AFD185600038166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C41AFD185600038166 /* AppDelegate.m */; };
 		96A210C81AFD185600038166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C71AFD185600038166 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		967243BF1AFD1C2900940908 /* International_students.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = International_students.jpg; sourceTree = "<group>"; };
 		967243C11AFD204100940908 /* 1782151_10152013590448773_1329157682_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1782151_10152013590448773_1329157682_n.jpg; sourceTree = "<group>"; };
+		967243C51AFD277400940908 /* MapaIosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaIosViewController.h; sourceTree = "<group>"; };
+		967243C61AFD277400940908 /* MapaIosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaIosViewController.m; sourceTree = "<group>"; };
 		96A210BC1AFD185600038166 /* Teacher2Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teacher2Home.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A210C01AFD185600038166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A210C11AFD185600038166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,6 +76,24 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		967243C31AFD272400940908 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96A210C61AFD185600038166 /* ViewController.h */,
+				96A210C71AFD185600038166 /* ViewController.m */,
+				967243C51AFD277400940908 /* MapaIosViewController.h */,
+				967243C61AFD277400940908 /* MapaIosViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		967243C41AFD273500940908 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		96A210B31AFD185600038166 = {
 			isa = PBXGroup;
 			children = (
@@ -94,11 +115,11 @@
 		96A210BE1AFD185600038166 /* Teacher2Home */ = {
 			isa = PBXGroup;
 			children = (
+				967243C31AFD272400940908 /* Controllers */,
+				967243C41AFD273500940908 /* Models */,
 				967243BC1AFD1BD900940908 /* Images */,
 				96A210C31AFD185600038166 /* AppDelegate.h */,
 				96A210C41AFD185600038166 /* AppDelegate.m */,
-				96A210C61AFD185600038166 /* ViewController.h */,
-				96A210C71AFD185600038166 /* ViewController.m */,
 				96A210C91AFD185600038166 /* Main.storyboard */,
 				96A210CC1AFD185600038166 /* Images.xcassets */,
 				96A210CE1AFD185600038166 /* LaunchScreen.xib */,
@@ -238,6 +259,7 @@
 				96A210C81AFD185600038166 /* ViewController.m in Sources */,
 				96A210C51AFD185600038166 /* AppDelegate.m in Sources */,
 				96A210C21AFD185600038166 /* main.m in Sources */,
+				967243C71AFD277400940908 /* MapaIosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
