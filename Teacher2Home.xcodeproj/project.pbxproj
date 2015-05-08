@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		967243C01AFD1C2900940908 /* International_students.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 967243BF1AFD1C2900940908 /* International_students.jpg */; };
 		96A210C21AFD185600038166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C11AFD185600038166 /* main.m */; };
 		96A210C51AFD185600038166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C41AFD185600038166 /* AppDelegate.m */; };
 		96A210C81AFD185600038166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C71AFD185600038166 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		967243BF1AFD1C2900940908 /* International_students.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = International_students.jpg; sourceTree = "<group>"; };
 		96A210BC1AFD185600038166 /* Teacher2Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teacher2Home.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A210C01AFD185600038166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A210C11AFD185600038166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		967243BC1AFD1BD900940908 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				967243BF1AFD1C2900940908 /* International_students.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		96A210B31AFD185600038166 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +91,7 @@
 		96A210BE1AFD185600038166 /* Teacher2Home */ = {
 			isa = PBXGroup;
 			children = (
+				967243BC1AFD1BD900940908 /* Images */,
 				96A210C31AFD185600038166 /* AppDelegate.h */,
 				96A210C41AFD185600038166 /* AppDelegate.m */,
 				96A210C61AFD185600038166 /* ViewController.h */,
@@ -201,6 +212,7 @@
 			files = (
 				96A210CB1AFD185600038166 /* Main.storyboard in Resources */,
 				96A210D01AFD185600038166 /* LaunchScreen.xib in Resources */,
+				967243C01AFD1C2900940908 /* International_students.jpg in Resources */,
 				96A210CD1AFD185600038166 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				96A210E11AFD185600038166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96A210E21AFD185600038166 /* Build configuration list for PBXNativeTarget "Teacher2HomeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				96A210E41AFD185600038166 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
