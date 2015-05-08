@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "PinPoint.h"
 
-@interface MapaIosViewController : UIViewController
+@interface MapaIosViewController : UIViewController<MKMapViewDelegate, CLLocationManagerDelegate>
 
+@property CLLocationManager * locationManager;
+@property (strong,nonatomic ) IBOutlet MKMapView *myMap;
 @end

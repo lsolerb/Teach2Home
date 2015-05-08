@@ -10,6 +10,9 @@
 		967243C01AFD1C2900940908 /* International_students.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 967243BF1AFD1C2900940908 /* International_students.jpg */; };
 		967243C21AFD204100940908 /* 1782151_10152013590448773_1329157682_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 967243C11AFD204100940908 /* 1782151_10152013590448773_1329157682_n.jpg */; };
 		967243C71AFD277400940908 /* MapaIosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967243C61AFD277400940908 /* MapaIosViewController.m */; };
+		967243CA1AFD347000940908 /* PinPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 967243C91AFD347000940908 /* PinPoint.m */; };
+		967243CC1AFD348300940908 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967243CB1AFD348300940908 /* MapKit.framework */; };
+		967243CE1AFD349700940908 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967243CD1AFD349700940908 /* CoreLocation.framework */; };
 		96A210C21AFD185600038166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C11AFD185600038166 /* main.m */; };
 		96A210C51AFD185600038166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C41AFD185600038166 /* AppDelegate.m */; };
 		96A210C81AFD185600038166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A210C71AFD185600038166 /* ViewController.m */; };
@@ -34,6 +37,10 @@
 		967243C11AFD204100940908 /* 1782151_10152013590448773_1329157682_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1782151_10152013590448773_1329157682_n.jpg; sourceTree = "<group>"; };
 		967243C51AFD277400940908 /* MapaIosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaIosViewController.h; sourceTree = "<group>"; };
 		967243C61AFD277400940908 /* MapaIosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaIosViewController.m; sourceTree = "<group>"; };
+		967243C81AFD347000940908 /* PinPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinPoint.h; sourceTree = "<group>"; };
+		967243C91AFD347000940908 /* PinPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinPoint.m; sourceTree = "<group>"; };
+		967243CB1AFD348300940908 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		967243CD1AFD349700940908 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		96A210BC1AFD185600038166 /* Teacher2Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teacher2Home.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A210C01AFD185600038166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A210C11AFD185600038166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967243CE1AFD349700940908 /* CoreLocation.framework in Frameworks */,
+				967243CC1AFD348300940908 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +99,8 @@
 		967243C41AFD273500940908 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				967243C81AFD347000940908 /* PinPoint.h */,
+				967243C91AFD347000940908 /* PinPoint.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -97,6 +108,8 @@
 		96A210B31AFD185600038166 = {
 			isa = PBXGroup;
 			children = (
+				967243CD1AFD349700940908 /* CoreLocation.framework */,
+				967243CB1AFD348300940908 /* MapKit.framework */,
 				96A210BE1AFD185600038166 /* Teacher2Home */,
 				96A210D81AFD185600038166 /* Teacher2HomeTests */,
 				96A210BD1AFD185600038166 /* Products */,
@@ -259,6 +272,7 @@
 				96A210C81AFD185600038166 /* ViewController.m in Sources */,
 				96A210C51AFD185600038166 /* AppDelegate.m in Sources */,
 				96A210C21AFD185600038166 /* main.m in Sources */,
+				967243CA1AFD347000940908 /* PinPoint.m in Sources */,
 				967243C71AFD277400940908 /* MapaIosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
